@@ -2,8 +2,8 @@ clc;
 clear all;
 close all;
 %declaring matrices
-A =input('Enter A: ');
-B=input('Enter B: ');
+A =input('Enter coefficient matrix A: ');
+B=input('Enter matrix of constants B: ');
 C = [A B]; %A|B
 %transforming A into an upper triangular matrix performing row-wise operation on A|B
 n= size(A);
